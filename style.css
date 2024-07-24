@@ -243,7 +243,7 @@ section{
     color: var(--hover-color);
 }
 
-a.btn::before{
+.btn::before{
     content: "";
     position: absolute;
     top: 0;
@@ -699,7 +699,7 @@ filter: blur(50px);
     }
 .port-image img{
         width: 100%;
-        opacity: .5s;
+        opacity: 5s;
         height: 100%;
         transition:.5s ;
     }
@@ -729,13 +729,13 @@ filter: blur(50px);
 .port-box:hover .port-image img{
     transform: scale(1.1);
 }
-.port-content h3{
+.port-content h2{
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 700;
     }
 
 .port-content p{
-        font-size: .8rem;
+        font-size: 0.9rem;
         margin: 5px 0 15px 0;
     }
 
@@ -832,6 +832,7 @@ filter: blur(50px);
     display: flex;
     justify-content: center;
     width: 100%;
+   
 }
 
 .formBtn .btn{
